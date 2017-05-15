@@ -1,0 +1,1 @@
+# ys2006.github.io
