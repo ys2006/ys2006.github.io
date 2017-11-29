@@ -30,5 +30,4 @@ git checkout $SOURCE
 
 msg "Adding the master branch into the \`public\` folder"
 rm -rf public
-
 git worktree add -B master public origin/master
