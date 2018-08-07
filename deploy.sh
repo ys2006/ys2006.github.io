@@ -25,7 +25,7 @@ msg "/************************/"
 msg "Removing the old website"
 msg "/************************/"
 pushd public
-git rm -rf *
+rm -rf *
 popd
 
 msg "/************************/"
