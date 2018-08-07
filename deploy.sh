@@ -21,15 +21,21 @@ if [[ $(git status -s) ]]; then
     exit 1;
 fi
 
+msg "/************************/"
 msg "Removing the old website"
+msg "/************************/"
 pushd public
 git rm -rf *
 popd
 
+msg "/************************/"
 msg "Building the website"
+msg "/************************/"
 hugo
 
+msg "/************************/"
 msg "Pushing the updated \`public\` folder to the \`master\` branch"
+msg "/************************/"
 pushd public
 git add *
 git commit -m "$MESSAGE"
