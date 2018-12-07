@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 Aug 2018 14:07:33 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Newpost</title>
+      <link>http://localhost:1313/post/cfa/</link>
+      <pubDate>Tue, 07 Aug 2018 14:07:33 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/cfa/</guid>
+      <description>TODO Note + Note课后题 + 教材课后题 Financial Reporting and Analysis Cash Flow Statements: Difference Between IFRS and US GAAP relation between BL Income and Cash Cash flow IFRS US GAAP -------------------+-------------------------------------+----------- Interest received Operating or investing Operating Interest paid Operating or financing Operating Dividend received Operating or investing Operatiog Dividend paid Operating or financing Financing Bank overdraft cash equivalents Financing</description>
+    </item>
+    
+    <item>
+      <title>Raspberrypi</title>
+      <link>http://localhost:1313/post/raspberrypi/</link>
+      <pubDate>Tue, 07 Aug 2018 11:00:21 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/raspberrypi/</guid>
+      <description>Raspberry Pi Environment Build Pin Reference Raspberry Pi Pinout</description>
+    </item>
+    
+  </channel>
+</rss>
