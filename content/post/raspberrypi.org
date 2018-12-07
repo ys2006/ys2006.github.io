@@ -1,9 +1,9 @@
 ---
 title: "Raspberrypi"
 date: 2018-08-07T11:00:21+08:00
-draft: true
+draft: false
 ---
 
 * Raspberry Pi Environment Build
 ** Pin Reference
-[[https://pinout.xyz/#][Raspberry Pi Pinout]]
+   [[https://pinout.xyz/#][Raspberry Pi Pinout]]

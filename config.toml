@@ -24,7 +24,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   name = "Home"
   weight = 10
   identifier = "home"
-  url = "/"
+  url = "/post/"
 [[menu.main]]
   name = "Archives"
   weight = 20
@@ -44,7 +44,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 [params]
   debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
 
-  since = "2018"            # Site creation time          # 站点建立时间
+  since = "2015"            # Site creation time          # 站点建立时间
 
   # site info (option)                                    # 站点信息（可选）
   logoTitle = "Dylan Home Page"        # default: the title value    # 默认值: 上面设置的title值
@@ -90,19 +90,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:your@email.com"
+    a-email = "mailto:dylan.yins@gmail.com"
     b-stack-overflow = "http://localhost:1313"
-    c-twitter = "http://localhost:1313"
     d-facebook = "http://localhost:1313"
     e-linkedin = "http://localhost:1313"
-    f-google = "http://localhost:1313"
-    g-github = "http://localhost:1313"
-    h-weibo = "http://localhost:1313"
-    i-zhihu = "http://localhost:1313"
-    j-douban = "http://localhost:1313"
-    k-pocket = "http://localhost:1313"
-    l-tumblr = "http://localhost:1313"
-    m-instagram = "http://localhost:1313"
+    g-github = "https://github.com/ys2006"
 
 # 将下面这段配置取消注释可以使 hugo 生成 .md 文件
 # Uncomment these options to make hugo output .md files.

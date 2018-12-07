@@ -1,7 +1,237 @@
 ---
 title: "Newpost"
 date: 2018-08-07T14:07:33+08:00
-draft: true
+draft: false
 ---
 
-* Hi test
+** TODO Note + Note课后题 + 教材课后题
+*** Financial Reporting and Analysis
+**** Cash Flow Statements: Difference Between IFRS and US GAAP
+     | Cash flow         | IFRS                                | US GAAP   |
+     |-------------------+-------------------------------------+-----------|
+     | Interest received | Operating or investing              | Operating |
+     | Interest paid     | Operating or financing              | Operating |
+     | Dividend received | Operating or investing              | Operatiog |
+     | Dividend paid     | Operating or financing              | Financing |
+     | Bank overdraft    | cash equivalents                    | Financing |
+     | Taxes paid        | operating or investing or financing | Operating |
+     |-------------------+-------------------------------------+-----------|
+**** relation between BL Income and Cash
+|-------------------------------+---+----------+---+------------------------------+---+----------------------------|
+| Beginning accounts receivable | + | revenues | - | cash collected from customer | = | Ending accounts receivable |
+|-------------------------------+---+----------+---+------------------------------+---+----------------------------|
+Beginning equity + New shares issuance – Shares repurchased + Comprehensive income – Dividends = Ending equity
+
+**** Operating Activities: Direct Method
+Cash received from customers
+Cash Paid for paid to employees  
+Cash Paid for Interest 
+Cash Paid for Income Tax
+|------------------------------+---+--------------------------------------+---+--------------------------|
+| Cash received from customers | + | Increase in accounts receivable      | = | Revenue                  |
+|------------------------------+---+--------------------------------------+---+--------------------------|
+| Cash paid to employees       | + | Increase in salary and wages payable | = | Salary and wages expense |
+|------------------------------+---+--------------------------------------+---+--------------------------|
+| Cash paid for interest       | + | Increase in interest payable         | = | Interest expense         |
+|------------------------------+---+--------------------------------------+---+--------------------------|
+| Cash paid for tax            | + | Increase in tax payable              | = | Income tax expense       |
+|------------------------------+---+--------------------------------------+---+--------------------------|
+
+|------------------------------------+---+--------------------------+---+-------------------------------+---+---------------------------------|
+| B                                  | + | A                        | - | S                             | = | E                               |
+|------------------------------------+---+--------------------------+---+-------------------------------+---+---------------------------------|
+| Beginning accounts receivable      | + | revenue                  | - | cash collected from customers | = | Ending accounts receivable      |
+|------------------------------------+---+--------------------------+---+-------------------------------+---+---------------------------------|
+| Beginning salary and wages payable | + | salary and wages expense | - | cash paid to employees        | = | Ending salary and wages payable |
+|------------------------------------+---+--------------------------+---+-------------------------------+---+---------------------------------|
+| Beginning interest payable         | + | interest expense         | - | cash paid for interest        | = | Ending interest payable         |
+|------------------------------------+---+--------------------------+---+-------------------------------+---+---------------------------------|
+
+Cash Paid to suppliers
+|--------------------+---+-----------------------+---+-----------|
+| cost of goods sold | + | increase in inventory | = | Purchases |
+|--------------------+---+-----------------------+---+-----------|
+
+|--------------------+---+-----------------------+---+------------------------------+---+------------------------|
+| Cost of goods sold | + | Increase in inventory | - | Increase in accounts payable | = | Cash paid to suppliers |
+|--------------------+---+-----------------------+---+------------------------------+---+------------------------|
+
+
+Cash Paid for Other Operating Expenses 
+|--------------------------+---+------------------------------+---+---------------------------------------+---+----------------------------------------|
+| Other operating expenses | - | Decrease in prepaid expenses | - | Increase in other accrued liabilities | = | Cash paid for other operating expenses |
+|--------------------------+---+------------------------------+---+---------------------------------------+---+----------------------------------------|
+
+**** Investing Activities
+Cash received from sale of equipment
+Cash paid for purchase of equipment
+|-------------------------------+---+----------------------+---+--------------------------------------------+---+-----------------------------------------|
+| B                             | + | A                    | - | S                                          | = | E                                       |
+|-------------------------------+---+----------------------+---+--------------------------------------------+---+-----------------------------------------|
+| Beginning balance equipment   | + | equipment purchased  | - | cost of equipment sold                     | = | ending balance equipment                |
+| Beginning balance accumulated | + | depreciation expense | - | accumulated depreciation on equipment sold | = | ending balance accumulated depreciation |
+|-------------------------------+---+----------------------+---+--------------------------------------------+---+-----------------------------------------|
+
+|------------------------+---+--------------------------------+---+---------------------------+---+--------------------------------------|
+| cost of equipment sold | - | depreciation on equipment sold | + | gain on sale of equipment | = | cash received from sale of equipment |
+|------------------------+---+--------------------------------+---+---------------------------+---+--------------------------------------|
+
+**** Financing Activities
+Cash paid for dividends
+|---------------------------------------+---+------------+---+----------------+---+------------------------------------|
+| B                                     | + | A          | - | S              | = | E                                  |
+|---------------------------------------+---+------------+---+----------------+---+------------------------------------|
+| Beginning balance of retained earning | + | net income | - | dividends paid | = | ending balance of retained earning |
+|---------------------------------------+---+------------+---+----------------+---+------------------------------------|
+
+
+**** Ratios
+Activity Ratios
+|-------------------------+------------------------------------------------------------+------------------------------------------------------------------------|
+| Ratios                  | Calculation                                                | What It Measures                                                       |
+|-------------------------+------------------------------------------------------------+------------------------------------------------------------------------|
+| Inventory turnover              | Cost of sales or cost of goods sold / Average inventory |
+| Days of inventory on hand (DOH) | Number of days in period(365) / Inventory turnover      |
+| Receivables turnover            | Revenue / Average receivables                           |
+| Days of sales outstanding (DSO) | Number of days in period(365)  / Receivables turnover   |
+| Payables turnover               | Purchases / Average trade payables                      |
+| Number of days of payables      | Number of days in period(365) / Payables turnover       |
+| Working capital turnover        | Revenue / Average working capital                       |
+| Fixed asset turnover            | Revenue / Average net fixed assets                      |
+| Total asset turnover            | Revenue / Average total assets                          |
+|---------------------------------+---------------------------------------------------------|
+
+Liquidity Ratios
+|--------------------------------------------+--------------------------------------------------------------------------------+-------------------------------------|
+| Ratios                                     | Calculation                                                                    | What It Measures                    |
+|--------------------------------------------+--------------------------------------------------------------------------------+-------------------------------------|
+| Current                                    | Current assets / Current liabilities                                           | Ability to meet current liabilities |
+| Quick (acid test)                          | (Cash + Short-term marketable investments + Receivables) / Current liabilities | Ability to meet current liabilities |
+| Cash                                       | (Cash + Short-term marketable investments) / Current liabilities               | Ability to meet current liabilities |
+| Defensive interval ratio                   | Cash + Short-term marketable investments + Receivables                         | Daily cash expenditures             |
+| Cash conversion cycle(net operating cycle) | DOH + DSO – Number of days of payables                                         |                                     |
+|--------------------------------------------+--------------------------------------------------------------------------------+-------------------------------------|
+
+Solvency Ratios 		
+|-------------------------+------------------------------------------------------------+------------------------------------------------------------------------|
+| Ratios                  | Calculation                                                | What It Measures                                                       |
+|---------------------------+--------------------------------------------------------+---------------------------------------|
+| debt-to-asset(Total debt) | Total debt / Total assets                              | Financial risk and financial leverage |
+| debt-to-capital           | Total debt / Total debtb + Total shareholders’ equity | Financial risk and financial leverage |
+| Debt-to-equity            | Total debt / Total shareholders’ equity               | Financial risk and financial leverage |
+| Long-term debt-to-equity  | Total long-term debt / Total equity                    | Financial risk and financial leverage |
+| Financial leverage        | Average Total assets / Average Total equity            | Financial risk and financial leverage |
+|---------------------------+--------------------------------------------------------+---------------------------------------|
+
+Coverage Ratios
+|-------------------------+------------------------------------------------------------+------------------------------------------------------------------------|
+| Ratios                  | Calculation                                                | What It Measures                                                       |
+|-------------------------+------------------------------------------------------------+------------------------------------------------------------------------|
+| Interest coverage       | EBIT(CFO + Interest paid + Taxes paid) / Interest paid     | Ability to meet interest obligations                                   |
+| Fixed charge coverage   | EBIT + Lease payments/Interest payments + Lease payments   |                                                                        |
+| Debt coverage           | CFO / Total debt                                           | Financial risk and financial leverage                                  |
+| Reinvestment            | CFO / Cash paid for long-term assets                       | Ability to acquire assets with operating cash flows                    |
+| Debt payment            | CFO / Cash paid for long-term debt repayment               | Ability to pay debts with operating cash flows                         |
+| Dividend payment        | CFO / Dividends paid                                       | Ability to pay dividends with operating cash flows                     |
+| Investing and financing | CFO / Cash outflows for investing and financing activities | Ability to acquire assets, pay debts, and make distributions to owners |
+|-------------------------+------------------------------------------------------------+------------------------------------------------------------------------|
+
+Profitability Ratios 
+|-------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Gross Profit Margin     | (Revenue - COGS - operating costs) / Revenue                                                                                                  |
+| Operating Profit Margin | (gross profit - operating costs) / Revenue                                                                                                    |
+| Pretax Margin           | (gross profit - operating costs - interest ) / Revenue                                                                                        |
+| Net Profit Margin       | (gross profit - operating costs - interest - Tax) / Revenue                                                                                   |
+| ROA                     | Net income / Average total assets                                                                                                             |
+| ROA                     | (Net income + Interest expense * (1−Tax rate)) / Average total assets                                                                         |
+| ROA                     | Operating income or EBIT / Average total assets                                                                                               |
+| ROTC                    | Operating income or EBIT / Average total capital(long-term debt, shot-term debt, preferred equity, common equity)                             |
+| ROE                     | Net income / Average total equity                                                                                                             |
+| ROE(Dupont)             | (Net income / Average total asset) * (Average total asset / Average shareholders' equity)                                                     |
+| ROE(Dupont)             | (Net income / Revenge) * (Revenge / Average total asset) * (Average total asset / Average shareholders' equity)                               |
+| ROE(Dupont)             | (Net income / EBT) * (EBT / EBIT) * (EBIT / Revenge) * (Revenge / Average total asset) * (Average total asset / Average shareholders' equity) |
+|-------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------|
+
+Valuation Ratios
+|-------------------------+----------------------------------------------------------------------------------------|
+| Dividend Payout Ratio   | dividends declared / net income available to common                                    |
+| Retention Rate          | (net income available to common - dividends declared) / net income available to common |
+| Sustainable Growth Rate | ROE * Retention Rate                                                                   |
+|-------------------------+----------------------------------------------------------------------------------------|
+
+Performance Ratios
+|-----------------------+--------------------------------------------------------------------+---------------------------------------------------------|
+| Ratios                | Calculation                                                        | What It Measures                                        |
+|-----------------------+--------------------------------------------------------------------+---------------------------------------------------------|
+| Cash flow to revenue  | CFO / Net revenue                                                 | Operating cash generated per dollar of revenue          |
+| Cash return on assets | CFO / Average total assets                                        | Operating cash generated per dollar of asset investment |
+| Cash return on equity | CFO / Average shareholders’ equity                               | Operating cash generated per dollar of owner investment |
+| Cash to income        | CFO / Operating income                                            | Cash generating ability of operations                   |
+| Cash flow per share   | (CFO – Preferred dividends) / Number of common shares outstanding | Operating cash flow on a per-share                      |
+|-----------------------+--------------------------------------------------------------------+---------------------------------------------------------|
+
+Z-score = 1.2 × (Current assets – Current liabilities)/Total assets
+	   + 1.4 × (Retained earnings/Total assets)
+	   + 3.3 × (EBIT/Total assets)
+	   + 0.6 × (Market value of stock/Book value of liabilities)
+	   + 1.0 × (Sales/Total assets)
+
+**** Inventory
+***** LIFO to FIFO
+FIFO Inventory = LIFO Inventory + LIFO Reserve
+FIFO Cash      = LIFO Cash - LIFO Reserver * Tax Rate
+FIFO Equity    = LIFO Equity + LIFO Reserver * (1 - Tax Rate)
+FIFO Net Income = LIFO Net Income + (Ending LIFO Reserve - Begging LIFO Reserve) * (1 – Tax rate)
+FIFO Returned Earning = LIFO Returned Earning + LIFO reserve * (1 – Tax rate)
+FIFO COGS      = LIFO COGS - (Ending LIFO Reserve - Begging LIFO Reserve)
+**** Inventory Measurement
+NRV(Net realizable value) = expected sales price - completion costs - estimated selling costs 
+**** Long -Lived Asset
+|--------------------------------------+--------------+-----------|
+| Ratios                               | Capitalizing | Expensing |
+|--------------------------------------+--------------+-----------|
+| Total asserts                        | High         | Low       |
+|--------------------------------------+--------------+-----------|
+| Shareholders' equity                 | High         | Low       |
+|--------------------------------------+--------------+-----------|
+| Income variability                   | low          | High      |
+|--------------------------------------+--------------+-----------|
+| Net income(first year)               | High         | Low       |
+|--------------------------------------+--------------+-----------|
+| Net income(subsequent years)         | Low          | High      |
+|--------------------------------------+--------------+-----------|
+| Cash flow from operations            | High         | Low       |
+|--------------------------------------+--------------+-----------|
+| Cash flow from investing             | Low          | High      |
+|--------------------------------------+--------------+-----------|
+| Debt ratio & Debt-to-equity          | Low          | High      |
+|--------------------------------------+--------------+-----------|
+| Interest coverage (first year)       | High         | Low       |
+|--------------------------------------+--------------+-----------|
+| Interest coverage (subsequent years) | Low          | High      |
+|--------------------------------------+--------------+-----------|
+
+*** Economics
+*** Quantiative Method
+*** Ethical and Professional Standards
+*** Corporate Finance
+*** Portfolio Management
+*** Equity Investments
+*** Fixed Income
+*** Derivatives
+*** Alternative Investments
+
+** TODO CFA institute topic test
+** TODO online mock, sample试题
+DEADLINE: <2018-05-08 Tue>
+** TODO 官方道德手册+官方道德手册（中文翻译版）
+** TODO CFA institute mock exam x 2
+
+*** Issues
+**** What is amortise reverse 
+http://bbs.pinggu.org/thread-3171465-1-1.html
+**** Non-cash items (e.g., amortisation of bond premium) will subtrat from net income when use indirect method for statement of cash flows.
+**** How to understand 
+| cost of goods sold | + | increase in inventory | = | Purchases |
+**** What is the Cash statement format difference between indirect and direct.
+**** Whst is Income variability
