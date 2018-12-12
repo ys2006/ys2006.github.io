@@ -1,0 +1,26 @@
+---
+title: "TOGAF"
+date: 2018-12-11T10:26:50+08:00
+draft: true
+---
+
+* Dictionary
+<2018-12-11 Tue>
+Continuum
+derive
+narrative
+evolve
+taxonomies
+
+
+
+
+
+
+
+
+
+
+
+
+
