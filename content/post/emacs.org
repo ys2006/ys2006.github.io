@@ -1,0 +1,17 @@
+---
+title: "Emacs"
+date: 2018-12-17T22:34:33+08:00
+draft: true
+---
+对于花费半天以上的技术问题加以记录,目的不在于记录具体技术的解决方法,而是着眼于复盘那些在解决问题中的具体思考逻辑以及是否有改进以节省下次类似问题解决时间的可能.毕竟人生的光阴有限,类似想法可能都来源于看桥水积金的达里奥的<规则>一书中描述的从过去中总结规则的想法.
+<2018-12-17 Mon>  
+问题: Emacs中文输入法Pyim,重新清理了配置,其中输入法选择框,由原来的(setq pyim-page-tooltip 'popup) 变更为 (setq pyim-page-tooltip 'posframe),没有生效,原因调查,花费了大概3个小时的时间.
+解决: a. pyim重复配置在了两个el里->删除多余配置 b.pyim原来版本1.7,最新1.8->升级
+疏理: 类似配置后,不起效果问题, 检查相关插件版本需要优先尝试.
+<2019-01-05 Sat>
+问题: 用emacs看新项目的代码,突然发现tag jump不好使了,明明之前一直用地很爽.现象为一直用地tag jump函数,突然让用counsel-etags-scan-code创建tag file了,并且在创建tag file的时候报错:comint-output-filter(#<process Shell<3>> "/usr/local/bin/ctags:" invalid option -- 'e'\n\11Try '
+解决: 原因一, upstream的配置作者改用etags了(之前用gtag). 一直对tag file的创建比较生疏,当看到明明elisp里的函数名为etags,log却显示调用的是ctag,一时有点儿发蒙. 看了下原来是,不是Emacs里自己带的etags,而是Exuberant Ctags的缩写.
+原因二, 发现系统里/usr/bin和/usr/local/bin下两者都有,剩下的原因的好解决了,虽然Exuberant Ctags被软连接为了ctags,但PATH里两个路径在一前一后,所以优先调用的关系,elisp的想用的Exuberant Ctags,被调用为了普通的ctags,而普通的ctags里是没有"e" option的.
+https://www.emacswiki.org/emacs/BuildTags
+https://unix.stackexchange.com/questions/302378/replace-ctags-with-exuberant-ctags
+疏理: Emacs的配置其实大部份是基于高手们的基础上的,所以当upstream merge以后,或者之前,最好要看下变动的具体内容,平时也要是不是关注upstream的变化.

@@ -3,7 +3,9 @@ title: "TOGAF"
 date: 2018-12-11T10:26:50+08:00
 draft: true
 ---
-
+* What is architecture
+** ISO/IEC/IEEE define: The fundamental concepts or properties of a system in its environment embodied in its elements, relationships, and in the principles of its design and evolution.
+** TOGAF define: The structure of components, their inter-relationships, and the principles and guidelines governing their design and evolution over time.
 * Dictionary
 <2018-12-11 Tue>
 Continuum
@@ -11,6 +13,29 @@ derive
 narrative
 evolve
 taxonomies
+<2018-12-14 Fri>
+continuum
+constituent
+Syllabus
+reinforce
+proprietary
+pyramid
+signify
+accreditation
+relevance
+comprehension
+<2018-12-18 Tue>
+iterative
+taxonomies
+consortium
+<2018-12-19 Wed>
+fragmented
+indispensable
+legacy
+radically
+procurement
+harmonized
+
 
 
 
